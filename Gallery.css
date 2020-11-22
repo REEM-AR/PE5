@@ -94,26 +94,27 @@ div.fig3 {
     width: 70%;
 }
 
-.li-head{
+.li-head {
     margin: 10px 0 0 0;
 }
- .li-sub{
-     margin: 0;
- }
 
- .li-img,
- .li-text,
- .list li{
-     display: block;
-     float: none;
- }
+.li-sub {
+    margin: 0;
+}
 
- footer{
+.li-img,
+.li-text,
+.list li {
+    display: block;
+    float: none;
+}
+
+footer {
     font-size: 30px;
     display: inline;
     background-color: #b78757;
 }
 
-h2{
-    font-size: 40px;
+h2 {
+    font-size: 39px;
 }
