@@ -1,16 +1,17 @@
-
-
-
 body {
     background-image: url("img/bc.jpg");
     background-size: cover;
 }
-li{display: inline;
-font-size: 25px;
-margin: 10px;}
 
-nav{
-   
+.links li {
+    display: inline;
+    font-size: 30px;
+    margin: 10px;
+    background-color: #b78757;
+}
+
+nav {
+
     text-align: left;
     padding: 12px;
     text-decoration: none;
@@ -23,7 +24,7 @@ h1 {
     text-align: center;
     color: #7646ae;
     margin: 150px 20px 0 20px;
-    text-shadow: 7px 7px 10px #cf93de; 
+    text-shadow: 7px 7px 10px #cf93de;
 }
 
 p {
@@ -31,4 +32,18 @@ p {
     text-align: center;
     color: #9d021a;
     margin: 0 20px 20px 20px;
+}
+
+footer {
+    font-size: 30px;
+    display: inline;
+    background-color: #b78757;
+
+}
+
+ul.contact {
+    display: block;
+    position: absoluut;
+    font-size: 50px;
+    text-align: left;
 }

@@ -1,8 +1,12 @@
-li {
+.links li {
     display: inline;
-    font-size: 25px;
+    font-size: 30px;
     margin: 10px;
+    background-color: #b78757;
 }
+
+
+
 
 body {
     background-image: url("img/bc1.jpg");
@@ -22,7 +26,7 @@ h1 {
 }
 
 p {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 
@@ -33,7 +37,7 @@ div.fig1 {
     margin: 0.5em;
     padding: 0.5em;
     display: inline;
-    position: absolute;
+
     left: 50px;
     top: 100px;
 }
@@ -45,10 +49,9 @@ div.fig2 {
     margin: 0.5em;
     padding: 0.5em;
     display: block;
-    position: absolute;
-    left:50px;
+    left: 50px;
     top: 600px;
-        
+
 }
 
 div.fig3 {
@@ -59,6 +62,58 @@ div.fig3 {
     padding: 0.5em;
     display: block;
     position: absolute;
-    left:50px;
+    left: 50px;
     top: 1400px;
-        
+}
+
+.list {
+    max-width: 1400;
+    margin: 20px auto;
+}
+
+.list li {
+    border-bottom: 1px solid #ccc;
+    display: table;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.li-sub li {
+    margin: 0;
+}
+
+.li-img img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.li-text {
+    display: table-cell;
+    vertical-align: middle;
+    width: 70%;
+}
+
+.li-head{
+    margin: 10px 0 0 0;
+}
+ .li-sub{
+     margin: 0;
+ }
+
+ .li-img,
+ .li-text,
+ .list li{
+     display: block;
+     float: none;
+ }
+
+ footer{
+    font-size: 30px;
+    display: inline;
+    background-color: #b78757;
+}
+
+h2{
+    font-size: 40px;
+}
