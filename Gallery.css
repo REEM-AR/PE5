@@ -1,0 +1,64 @@
+li {
+    display: inline;
+    font-size: 25px;
+    margin: 10px;
+}
+
+body {
+    background-image: url("img/bc1.jpg");
+    background-size: cover;
+}
+
+nav {
+    display: inline;
+}
+
+img {
+    float: left;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 30px;
+}
+
+
+div.fig1 {
+    float: left;
+    width: 30%;
+    border: thin silver solid;
+    margin: 0.5em;
+    padding: 0.5em;
+    display: inline;
+    position: absolute;
+    left: 50px;
+    top: 100px;
+}
+
+div.fig2 {
+    float: left;
+    width: 30%;
+    border: thin silver solid;
+    margin: 0.5em;
+    padding: 0.5em;
+    display: block;
+    position: absolute;
+    left:50px;
+    top: 600px;
+        
+}
+
+div.fig3 {
+    float: left;
+    width: 30%;
+    border: thin silver solid;
+    margin: 0.5em;
+    padding: 0.5em;
+    display: block;
+    position: absolute;
+    left:50px;
+    top: 1400px;
+        

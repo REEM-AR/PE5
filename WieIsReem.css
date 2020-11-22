@@ -1,0 +1,21 @@
+
+li{display: inline;
+    font-size: 25px;
+    margin: 10px;
+    background-image: url("img/pink-paint-brush-stroke-21.png"); 
+    background-color:pink;
+}
+
+body {
+    background-image: url("img/bc.jpg");
+    background-size: cover;
+}
+
+h1 {
+    font-size: 100px;
+    color: #21486a;
+}
+
+p {
+    font-size: 30px;
+}
